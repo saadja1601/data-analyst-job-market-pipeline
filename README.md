@@ -54,16 +54,16 @@ Adzuna API → Python (pull + clean + extract skills) → MySQL (store) → Powe
 
 ## Project Structure
 
-da-job-market-pipeline/
-├── notebooks/
-│   └── 01_api_pull_clean.ipynb    # API pull, cleaning, skill extraction
-├── sql/
-│   └── analysis_queries.sql       # 5 business queries in MySQL
-├── data/
-│   └── da_jobs_texas.csv          # Cleaned dataset (1,153 rows)
-├── dashboard_screenshot.png       # Power BI dashboard preview
-├── README.md
-└── requirements.txt
+    da-job-market-pipeline/
+    ├── notebooks/
+    │   └── 01_api_pull_clean.ipynb
+    ├── sql/
+    │   └── analysis_queries.sql
+    ├── data/
+    │   └── da_jobs_texas.csv
+    ├── dashboard_screenshot.png
+    ├── README.md
+    └── requirements.txt
 
 ## SQL Queries
 
