@@ -42,10 +42,10 @@ Adzuna API → Python (pull + clean + extract skills) → MySQL (store) → Powe
 
 ## Key Findings
 
-- **Excel is the most mentioned skill** — appears in 6.8% of postings, followed by SQL (4.2%) and ETL (3.6%)
-- **Austin leads Texas with 135 DA job postings** — more than Dallas (73) and Houston (65) combined
+- **Excel is the most mentioned skill**, appearing in 6.8% of postings, followed by SQL (4.2%) and ETL (3.6%). Skills are matched against the first 500 characters of each description (the API truncates them), so true rates are higher
+- **Austin leads Texas by city label with 135 DA job postings**, ahead of Dallas (73) and Houston (65). Grouped by metro area instead, Dallas-Fort Worth leads with 449 postings, then Austin (325) and Houston (205), because the API location field often lists suburbs and neighborhoods
 - **Data Analyst is the most common title** (34 postings), followed by Data Engineer (22) and Business Analyst (19)
-- **183 jobs were posted in the last 3 days** — showing an active, fast-moving hiring market
+- **183 jobs were posted in the last 3 days** as of the May 30, 2026 pull, showing an active, fast-moving hiring market
 - **Snowflake (28) and Azure (25)** appear more than Power BI (24) and Tableau (21) — cloud skills are increasingly expected
 
 ## Dashboard Preview
